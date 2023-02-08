@@ -1,6 +1,5 @@
 body{
-	background-color:#4e3a3a;
-	color:#555;
+	background-color:beige;
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:16px;
 	line-height:1.6em;
@@ -14,10 +13,9 @@ body{
 }
 
 #main-header{
-	background-color:coral;
+	background-color:rgb(153, 129, 120);
 	color:#fff;
 }
-
 
 #main{
 	float:left;
@@ -48,7 +46,7 @@ input[type=text] {
   }
 
 input[type=button] {
-    background-color: rgb(235, 29, 73); /* HAN Kleur */
+    background-color: rgb(170, 112, 125);
     border: none;
     color: white;
     padding: 15px 32px;
@@ -90,4 +88,30 @@ div.scrollmenu {
   
   div.scrollmenu a:hover {
 	background-color: #777;
+  }
+/*button voor smart connections */
+
+  .btn-group button {
+	background-color:beige; /* beige background */
+	border: 1px solid White; /* white border */
+	color: black; /* zwarte text */
+	padding: 10px 24px; /* Some padding */
+	cursor: pointer; /* Pointer/hand icon */
+	float: left; /* Float the buttons side by side */
+  }
+  
+  /* Clear floats (clearfix hack) */
+  .btn-group:after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+  
+  .btn-group button:not(:last-child) {
+	border-right: none; /* Prevent double borders */
+  }
+  
+  /* Add a background color on hover */
+  .btn-group button:hover {
+	background-color: #add8e6;
   }
