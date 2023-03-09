@@ -1,5 +1,5 @@
 body{
-	background-color:beige;
+	background-color:rgb(208, 248, 245);
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:16px;
 	line-height:1.6em;
@@ -10,11 +10,6 @@ body{
 	width:80%;
 	margin:auto;
 	overflow:hidden;
-}
-
-#main-header{
-	background-color:rgb(153, 129, 120);
-	color:#fff;
 }
 
 #main{
@@ -39,8 +34,19 @@ h3 {
 p {
     font-family: verdana;
     font-size: 20px;
+		text-align: center;
+		color: black;
+	  
   }
 
+div.box {
+	background-color: lightgrey;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}  
+  
 input[type=text] {
     padding: 10px
   }
@@ -76,18 +82,14 @@ div.scrollmenu {
 	background-color: #333;
 	overflow: auto;
 	white-space: nowrap;
-  }
-  
-  div.scrollmenu a {
-	display: inline-block;
-	color: white;
-	text-align: center;
-	padding: 14px;
-	text-decoration: none;
+	color: black;
   }
   
   div.scrollmenu a:hover {
 	background-color: #777;
+	overflow: auto;
+	white-space: nowrap;
+	color: black;
   }
 /*button voor smart connections */
 
