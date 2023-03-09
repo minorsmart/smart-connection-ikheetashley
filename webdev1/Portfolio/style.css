@@ -56,6 +56,9 @@ input[type=text] {
     padding: 10px
   }
 
+div.w3-content {
+max-width:1400px
+}
 input[type=button] {
     background-color: rgb(170, 112, 125);
     border: none;
