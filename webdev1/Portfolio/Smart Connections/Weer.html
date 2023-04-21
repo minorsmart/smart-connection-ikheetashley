@@ -4,7 +4,6 @@
   <meta charset="utf-8">
   <title>Current Weather</title>
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,900" rel="stylesheet">
-  <link rel="./stylesheet" href="styles.css">
 </head>
 <body>
   <div id="weather">
@@ -15,7 +14,7 @@
   <a href="../../Portfolio/opdrachten.html"> Opdrachten</a>
   <script lang="text/javascript">
     function weatherBalloon( cityID ) {
-	var key = '{12193e0ac9b9df735e920b9271088640}';
+	var key ='{12193e0ac9b9df735e920b9271088640}';
 	fetch('https://api.openweathermap.org/data/2.5/weather?id=' + cityID+ '&appid=' + key)  
 	.then(function(resp) { return resp.json() }) // Convert data to json
 	.then(function(data) {
