@@ -1,1 +1,10 @@
-[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-f4981d0f882b2a3f0472912d15f9806d57e124e0fc890972558857b51b24a6f9.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=9987969)
+# Web Dev 1
+
+Dit is de assignment voor Web Dev 1 van Smart Connection:
+
+- Bouw een persoonlijke pagina met [HTML](https://www.w3schools.com/html/default.asp)
+- Voeg opmaak toe via  [CSS](https://www.w3schools.com/css/default.asp)
+- Voeg een [foto](https://www.w3schools.com/html/html_images.asp) toe
+- Embed een video via m.b.v. een [Iframe](https://www.w3schools.com/html/html_iframe.asp)
+
+Voor inspitatie: bestudeer de twee zip-files met voorbeeld-pagina's.
